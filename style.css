@@ -28,7 +28,6 @@ body {
   place-items: center;
 
   padding: 2rem;
-  
 }
 
 .wrapper {
@@ -66,8 +65,8 @@ h1 {
   font-weight: 800;
 
   letter-spacing: -0.06em;
+  margin-bottom: 0.75rem;
 
-  margin-bottom: 1.5rem;
 
   line-height: 1;
   color: var(--primarytext);
@@ -84,6 +83,12 @@ p {
 
   margin-bottom: 2.5rem;
   text-transform: lowercase;
+}
+
+.sub-texts {
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+  opacity: 0.25;
 }
 
 .links {
@@ -153,4 +158,3 @@ p {
     transform: translateY(0);
   }
 }
-
